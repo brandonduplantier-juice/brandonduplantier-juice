@@ -1,0 +1,11 @@
+# Documentation index
+
+## Start here
+
+- [README](README.md): project entry point.
+- [Engineering guide](ENGINEERING.md): development workflow.
+- [Agent instructions](AGENTS.md): AI development rules.
+
+The following map points to existing resources; their contents and authority are unchanged. Verify current status and branch before relying on historical records.
+
+
