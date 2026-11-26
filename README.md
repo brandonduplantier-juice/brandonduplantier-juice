@@ -25,3 +25,7 @@ Python (pandas, NumPy, scikit-learn, SciPy), R, SQL, DESeq2 / pydeseq2, Scanpy, 
 ## Contact
 
 [LinkedIn](https://linkedin.com/in/charles-brandon-duplantier) | brandon.duplantier@gmail.com
+
+## Project navigation
+
+- [Engineering guide](ENGINEERING.md): directory map, development workflow and review standards.
