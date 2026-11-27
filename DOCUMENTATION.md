@@ -8,4 +8,6 @@
 
 The following map points to existing resources; their contents and authority are unchanged. Verify current status and branch before relying on historical records.
 
+## Release management
 
+- [Release and versioning policy](RELEASE_POLICY.md): verification, version naming, release evidence and rollback requirements.
