@@ -1,0 +1,22 @@
+name: Documentation validation
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required repository documents
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          for name in ('README.md','ENGINEERING.md','AGENTS.md','DOCUMENTATION.md'):
+              path=Path(name)
+              assert path.is_file() and path.read_text(encoding='utf-8-sig').strip(), name
+          print('Required documentation is present')
+          PY
